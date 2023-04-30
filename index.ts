@@ -12,7 +12,7 @@ const stream = getStream();
 
 let room: string;
 let bricks: string;
-stream.on('data', (data) => {    
+stream.on('data', (data) => {
     switch(data) {
         case " ":
             return;
